@@ -1,0 +1,22 @@
+.container{
+  margin: 0 auto;
+  width: 1000px;
+}
+#statsLista{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+#statsLista p{
+  width: 40%;
+  margin: 0;
+}
+.requisitos{
+  display: flex;
+}
+.req-1 i{
+  font-style: normal;
+}
+.botones{
+  padding: 50px;
+}

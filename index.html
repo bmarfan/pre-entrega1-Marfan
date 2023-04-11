@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Define los stats</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Define los stats de tu personaje</h1>
+        <h2>Requisitos</h2>
+        <div class="requisitos">
+            <div id="statsLista"></div>
+            <div class="req-1">
+                <b>Total:</b> <i>100 puntos</i><br>
+                <b>Topes:</b> <i>27 puntos en los Altos. 25 en los Medios. 23 en los Bajos</i>
+                <p>Recuerda recargar la página para un nuevo intento</p>
+            </div>
+        </div>
+        
+       
+        <h2>Stats</h2>
+        <div class="requisitos">
+            <div>
+                <p>Fuerza</p> 
+          <input type="number" value="22" id="score1" class="scores">
+          <div id="check1"></div>
+          
+          <p>Resistencia</p>
+           <input type="number" value="6" id="score2" class="scores">
+           <div id="check2"></div>
+
+          <p>Aguante</p>
+           <input type="number" value="9" id="score3" class="scores">
+           <div id="check3"></div>
+
+          <p>Agilidad</p>
+           <input type="number" value="5" id="score4" class="scores">
+           <div id="check4"></div>
+
+          <p>Experiencia</p>
+           <input type="number" value="7" id="score5" class="scores">
+           <div id="check5"></div>
+            </div>
+            <div class="botones">
+                <button onclick="revisar()" id="revisarStats">¿Es correcto el total de puntos?</button>
+        
+           <br><br>
+           <button onclick="mostrar()" id="mostratalgo">¿Es correcto según el tope de puntos?</button>
+            </div>
+        </div>
+      </div>
+    <script src="./js/javascript.js"></script>
+</body>
+</html>
